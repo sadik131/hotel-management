@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel management</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <!-- header -->
+     <header class="bg-white sticky top-0 h-[90px] shadow-xl z-30">
+        <div class="container mx-auto flex justify-between h-full items-center">
+            <!-- logo -->
+             <a href="#">
+                <img src="./assets/logo.svg" alt="">
+             </a>
+             <!-- mobile manus -->
+              <div class="text-4xl cursor-pointer lg:hidden" id="nav_toggle">
+                <i class="ri-menu-2-line"></i>
+              </div>
+             <!-- navbar -->
+              <nav>
+                <ul id="nav_manus" class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Our Work</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+              </nav>
+        </div>
+     </header>
+
+    <!-- page wrapper -->
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+        <!-- grid img -->
+         <div class="lg:bg-grid lg:bg-center lg:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
+        <!-- hero -->
+        <section class="hero h-[640px] lg:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+            <div class="container mx-auto h-full flex  items-center justify-center xl:text-left">
+                <!-- text -->
+                <div class="hero--text w-[567px] flex flex-col items-center text-primary text-center lg:text-left lg:items-start">
+                    <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
+                    <p class="mb-8">There are many variations of the passages of lorem ipsum from available,variations of the passages</p>
+                    <button class="btn btn-primary mx-auto lg:mx-0">
+                        Get free estimation
+                        <i class="ri-arrow-right-line text-accent"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="h-[3000px]"></div>
+    </main>
+
+    <!-- SCROLLREVEAL  -->
+    <script src="./js/scrollreveal.min.js"></script>
+    <!-- SWIPER -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- MAIN -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
