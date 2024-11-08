@@ -6,9 +6,7 @@ A brief description of what this project does and who it's for
 
 ## PDF of website
 
-Desktop page1
-https://drive.google.com/file/d/13Ca7Xy1DKkp32XNJsdPi1IIx3OnNSdzE/view?usp=sharing
-
+website : https://deluxe-daifuku-6f8522.netlify.app/
 Mobile page1
 
 ## Features
